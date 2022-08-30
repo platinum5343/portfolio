@@ -34,5 +34,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
     }
     linkColor.forEach(l=> l.addEventListener('click', colorLink))
     
-     // Your code to run since DOM is loaded and ready
+     
     });
+// typing animation 
+    var typed = new Typed(".typing",{
+        strings:["Web Developer","Digital Marketer","Web Developer","Digital Marketer"],
+        typespeed:100,
+        Backspeed:60,
+        loop:true
+    })
+
+
