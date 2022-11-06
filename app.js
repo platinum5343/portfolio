@@ -38,10 +38,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
     });
 // typing animation 
     var typed = new Typed(".typing",{
-        strings:["Web Developer","Digital Marketer","Web Developer","Digital Marketer"],
-        typespeed:100,
-        Backspeed:60,
-        loop:true
+        strings:["","Web Developer"],
+        typespeed:40,
+        Backspeed:10,
     })
 
 
